@@ -1,0 +1,147 @@
+.gradient-background {
+    /* Degradado de fondo */
+background: #22C1C3;
+background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(188, 224, 117, 1) 100%);
+}
+
+.Header {
+    
+    font-family: 'Garamond', serif;
+    font-weight: bold;
+    text-align: center;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;              /* por encima del resto */
+    
+    margin: 0;
+    margin-left: -20px;
+
+
+    font-size: 3em;
+    color: rgb(26, 56, 12);
+    padding: 10px;
+    background-color: #6cdd3f; /* color de fondo azul */
+    border-bottom: 4px solid black; /* borde inferior */
+}
+
+.center {
+  display: flex;
+  justify-content: center; /* en lugar de space-around */
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+h2 {
+    font-family: 'Garamond', serif;
+    font-weight: bold;
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 5px rgba(243, 243, 243, 0.911);
+
+    width: 80%;
+    margin: 20px auto; 
+    padding: 10px;
+   
+}
+.paragraph {
+    font-family: Arial, sans-serif;
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.2);
+
+    text-align: justify;
+    width: 80%;
+    margin: 20px auto; /* centrado horizontal */
+    padding: 10px;
+}
+.para1 {
+    background-color: #8ab4d8;
+}
+.para2 {
+    background-color: #f4b183;
+}
+.para3 {
+    background-color: #b6d7a8;
+}
+.para4 {
+    background-color: #d9d2e9;
+}
+
+
+.factors-list {
+    list-style-type: disc;   /* bullets */
+    padding-left: 20px;      /* sangría estándar */
+    margin: 0;               /* elimina márgenes extra */
+}
+
+.factor-item {
+  margin-bottom: 5px;
+  text-align: justify;
+  font-family: Arial, sans-serif;
+}
+
+
+
+
+
+.Biblio {
+    position: fixed;
+    bottom: 0;
+    left: 50%;                  /* lo coloca en el medio de la pantalla */
+    transform: translateX(-50%);/* lo ajusta hacia atrás la mitad de su ancho */
+    width: 80%;
+    z-index: 1000;              /* por encima del resto */
+    
+        padding: 5px;
+    gap: 5px; /* define el espacio vertical */
+
+
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+
+.Bibliografia {
+    font-weight: bold;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    /*PARA QUE EL TEXTO ESTE CENTRADO EN LA PANTALLA*/
+    width: 100%;
+    margin: 0%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23259a27' fill-opacity='0.4'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    border: 2px solid black;
+    text-shadow: 1px 1px #00000094;
+
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    text-shadow: 1px 1px #00000094;
+
+    /*fuente con borde*/
+       
+    font-family: Arial, sans-serif ;
+    font-weight: bold;
+
+    text-align: center;
+    /*PARA QUE esten equidistantes*/    
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    border: 2px solid black;
+}
